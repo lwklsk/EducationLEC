@@ -180,7 +180,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-01-09 01:39:06</span>
+        <span class="pc">2023-01-09 01:45:17</span>
     </span>
     
     
@@ -200,7 +200,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>346 Words</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>354 Words</span>
         </span>
     
     
@@ -267,11 +267,14 @@
    
     // 创建地址解析器实例     
     var myGeo = new BMapGL.Geocoder();      
+    var Tpoint, marker;
     // 将地址解析结果显示在地图上，并调整地图视野    
     myGeo.getPoint("滨江大道3072号", function(point){      
-        if (point) {      
+        if (point) {
+            Tpoint = point;
+m           marker = new BMapGL.Marker(point);
             map.centerAndZoom(point, 16);      
-            map.addOverlay(new BMapGL.Marker(point));      
+            map.addOverlay(marker);      
         }      
     }, 
     "上海市");

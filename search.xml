@@ -54,9 +54,7 @@
     map.centerAndZoom(new BMapGL.Point(121.499, 31.239), 11);  // 初始化地图,设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 
-    map = new BMap.Map("allmap");    
-
-    map.centerAndZoom(new BMap.Point(121.499, 31.239), 11);      
+   
     // 创建地址解析器实例     
     var myGeo = new BMap.Geocoder();      
     // 将地址解析结果显示在地图上，并调整地图视野    

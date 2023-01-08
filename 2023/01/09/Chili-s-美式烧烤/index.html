@@ -180,7 +180,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-01-09 01:03:56</span>
+        <span class="pc">2023-01-09 01:09:49</span>
     </span>
     
     
@@ -200,7 +200,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>257 Words</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>276 Words</span>
         </span>
     
     
@@ -259,11 +259,14 @@
 
 
 <script type="text/javascript">
-    // GL版命名空间为BMapGL
-    // 按住鼠标右键，修改倾斜角和角度
-    var map = new BMapGL.Map("allmap");    // 创建Map实例
 
-    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);      
+    var map = new BMapGL.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMapGL.Point(121.499, 31.239), 11);  // 初始化地图,设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    map = new BMap.Map("allmap");    
+
+    map.centerAndZoom(new BMap.Point(121.499, 31.239), 11);      
     // 创建地址解析器实例     
     var myGeo = new BMap.Geocoder();      
     // 将地址解析结果显示在地图上，并调整地图视野    
@@ -274,10 +277,12 @@
         }      
     }, 
     "上海市");
-    map.enableScrollWheelZoom(true);
 
 
 </script>
+
+
+
 
 
 

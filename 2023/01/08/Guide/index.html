@@ -9,7 +9,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
     <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=Xg5oQOBDWxXG5gtzRR5uzIi7hGW4TcYs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
     
     <title>
         
@@ -180,7 +180,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-01-08 22:23:01</span>
+        <span class="pc">2023-01-09 00:22:35</span>
     </span>
     
     
@@ -211,7 +211,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>92 Words</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>147 Words</span>
         </span>
     
     
@@ -227,16 +227,34 @@
                 <p><a class="link"   href="tel:123123123" >123123123<i class="fas fa-external-link-alt"></i></a></p>
 <style>
 #allmap{
-    height:200px;
-    width: 200px
+    height:300px;
+    width: 300px;
 }    
 </style> 
 
 <p>&lt;span class&#x3D;”copyMa” @click&#x3D;”copy()”&gt;<br><a class="link"   href="javascript:alert('叫你别点，你非要点')" >点击复制aaaaaaaaaaaa<i class="fas fa-external-link-alt"></i></a><br></span></p>
-<input id="foo" value="123">
-<button class="btn" data-clipboard-target="#foo" onclick="javascript:alert('123123')">
-    123
-</button>
+<p><a class="link"  id="address"  href="javascript:" >什么什么路啊啊啊啊好<i class="fas fa-external-link-alt"></i></a></p>
+<script>
+    new ClipboardJS('#address', {
+        text: function(trigger) {
+            return document.getElementById("address").text;
+        }
+    }).on('success', function(e) {
+    alert("已复制");
+    e.clearSelection();
+    }).on('error', function(e) {
+    });
+</script>
+
+<script>
+    function copyaddress(){
+        var copyText = document.getElementById('address').text;
+        copyText.value = copyText;
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText);
+    }
+</script>
 
 
 <div id="allmap">123</div> 
@@ -293,6 +311,21 @@
 
             
                 <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/ShanghaiTravel/2023/01/09/%E4%BC%A0%E7%BB%9F%E6%99%AF%E7%82%B9%E5%90%88%E9%9B%86/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">传统景点合集</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                            </a>
+                        </div>
                     
                     
                         <div class="article-next">

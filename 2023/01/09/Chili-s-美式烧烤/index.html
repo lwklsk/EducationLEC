@@ -180,7 +180,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-01-09 00:52:20</span>
+        <span class="pc">2023-01-09 00:55:41</span>
     </span>
     
     
@@ -200,7 +200,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>259 Words</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>257 Words</span>
         </span>
     
     
@@ -267,13 +267,14 @@
     // 创建地址解析器实例     
     var myGeo = new BMap.Geocoder();      
     // 将地址解析结果显示在地图上，并调整地图视野    
-    myGeo.getPoint("北京市海淀区上地10街10号", function(point){      
+    myGeo.getPoint("滨江大道3072号", function(point){      
         if (point) {      
             map.centerAndZoom(point, 16);      
             map.addOverlay(new BMap.Marker(point));      
         }      
     }, 
-    "北京市");
+    "上海市");
+    map.enableScrollWheelZoom(true);
 
 
 </script>

@@ -1,90 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Chili&#39;s---美式烧烤</title>
-    <url>/EducationLEC/2023/01/09/Chili-s-%E7%BE%8E%E5%BC%8F%E7%83%A7%E7%83%A4/</url>
-    <content><![CDATA[<p>一家我没吃过，但看起来很好吃，我很想吃，如果你们不想吃我就自己去吃的店。</p>
-<span id="more"></span>
+    <title>Activity introduction - 项目简介</title>
+    <url>/EducationLEC/2023/01/10/Activity%20introduction%20-%20%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h5 id="感谢大家能够支持我的调研工作，接下来我会简单介绍一下项目概况和流程。"><a href="#感谢大家能够支持我的调研工作，接下来我会简单介绍一下项目概况和流程。" class="headerlink" title="感谢大家能够支持我的调研工作，接下来我会简单介绍一下项目概况和流程。"></a>感谢大家能够支持我的调研工作，接下来我会简单介绍一下项目概况和流程。</h5><h5 id="Thank-you-for-supporting-my-research-work-Next-I-will-briefly-introduce-the-project-overview-and-process"><a href="#Thank-you-for-supporting-my-research-work-Next-I-will-briefly-introduce-the-project-overview-and-process" class="headerlink" title="Thank you for supporting my research work. Next, I will briefly introduce the project overview and process."></a>Thank you for supporting my research work. Next, I will briefly introduce the project overview and process.</h5><span id="more"></span>
 
-
-<p>Tel: <a class="link"   href="tel:021-58358035" >021-58358035<i class="fas fa-external-link-alt"></i></a></p>
-<p>Address: <a class="link"  id="address"  href="javascript:" >滨江大道3072号<i class="fas fa-external-link-alt"></i></a></p>
-<iframe src="//player.bilibili.com/player.html?aid=904584680&bvid=BV1RP4y1v7vt&cid=945311292&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
-<script>
-    new ClipboardJS('#address', {
-        text: function(trigger) {
-            return document.getElementById("address").text;
-        }
-    }).on('success', function(e) {
-    alert("已复制");
-    e.clearSelection();
-    }).on('error', function(e) {
-    alert("照理来说是点一下就复制了，但你用的浏览器不支持ClipboardJS，你就自己选中复制吧。");
-    });
-</script>
-
-
-
-
-<div id="allmap">如果你正在阅读这行字，说明地图没加载出来。<br>一个小bug，懒得修复了，刷新一下就好了。<br>说实话刷新出来也没啥用，就是地图上给你标个点。<br>至于你自己在哪儿和点一下就能调用app导航的功能。<br>看了文档觉得太麻烦，懒得弄了。<br>好了去刷新吧，厚普由因嚼诶油耳雀破。</div> 
-
-
-<script type="text/javascript">
-
-    var map = new BMapGL.Map("allmap");    // 创建Map实例
-    map.centerAndZoom(new BMapGL.Point(121.499, 31.239), 11);  // 初始化地图,设置中心点坐标和地图级别
-    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-
-   
-    // 创建地址解析器实例     
-    var myGeo = new BMapGL.Geocoder();      
-    var Tpoint, marker;
-    var content = "label";
-    // 将地址解析结果显示在地图上，并调整地图视野    
-    myGeo.getPoint("滨江大道3072号", function(point){      
-        if (point) {
-            var Tpoint = point;
-            console.log(Tpoint);
-
-
-            marker = new BMapGL.Marker(point);
-            map.centerAndZoom(point, 16);      
-            map.addOverlay(marker);     
-            var opts = {
-            position: new BMapGL.Point(point.lng, point.lat), // 指定文本标注所在的地理位置
-            offset: new BMapGL.Size(-40, 10) // 设置文本偏移量
-            };
-            // 创建文本标注对象
-            var label = new BMapGL.Label('大概在这儿', opts);
-            // 自定义文本标注样式
-            label.setStyle({
-                color: '#000',
-                borderRadius: '1px',
-                borderColor: '#fff',
-                padding: '2px',
-                fontSize: '15px',
-                height: '30px',
-                lineHeight: '30px',
-                fontFamily: '微软雅黑'
-            });
-            map.addOverlay(label);
-        }      
-    }, 
-    "上海市");
-
-
-</script>
-
-
-
-
-
-]]></content>
+<h4 id="简介-Introduction"><a href="#简介-Introduction" class="headerlink" title="简介 - Introduction"></a>简介 - Introduction</h4><p>先简单介绍一下我自己，我目前于墨尔本大学攻读教育学硕士学位。目前的研究课题是针对中国非一线城市中学生的英语口语能力的调研。</p>
+<p>Let me briefly introduce myself. I am currently studying for a Master of Education at the University of Melbourne.<br>The current research topic is a survey on the oral English ability of middle school students in non-first-tier cities in China.</p>
+<p>我是在中国读到九年级就出国留学了。在国内是我是典型的理科生，英语一度是我最差的主课。而出国以后，在周围的留学生中我的英语水平，尤其是口语和听力，几乎直接跳到了第一梯队的水平。</p>
+<p>I studied abroad when I was in ninth grade in China. In China, I am a typical science student, and English was once my worst main subject.<br>After going abroad, my English proficiency, especially speaking and listening, can be ranked first among the other Chinese students around me.</p>
+<p>很多人问我是不是因为到了国外，语言环境帮助了我。但并不是，因为我是飞机落地墨尔本以后，直接变得会说英语了。当然，我并不是说大家想学好英语只要出国就行了。<br>根本的原因是，在中国的教育体系下，大部分学生的英语功底都不差的。就和以前的我一样，只是不敢说，不敢听，怕错，并且总觉得反正真的不行还能说中文。</p>
+<p>Many people asked me if it was because the language environment helped me when I was abroad.<br>But no, because I became able to speak English directly after the plane landed.<br>Of course, I am not saying that if you want to learn English well, you only need to go abroad.<br>The fundamental reason is that under the Chinese education system, most students have good English skills. 、<br>Just like me before, I just dare not speak, dare not listen, afraid of making mistakes, and always feel that I can still speak Chinese anyway.</p>
+<p>口语能力在国内并没有得到太多的重视，主要原因是不考。不过，这可能要成为过去时了，按照我查到的信息，不少城市以及讲英语口语划入了中考范畴。</p>
+<p>Oral English ability has not received much attention in China, the main reason is that it is not tested.<br>However, this may become a thing of the past. According to the information I found, many cities and spoken English are included in the category of the senior high school entrance examination.</p>
+<p>这肯定是好事，一门语言包含四个部分，听说读写。说，也就是口语能力，对于整体的语言学习可以说是最重要的部分。</p>
+<p>This must be a good thing, a language consists of four parts, listening, speaking, reading and writing.<br>Speaking, that is, speaking ability, can be said to be the most important part of overall language learning.</p>
+<p>说话，是我们使用一门语言最频繁的方式。要是不说这门语言，其实就少了非常多的练习时间。<br>一个人能说，势必也就能读。尤其是像英语这样的语言，汉字你不认识，你或许真的读不出，而英语哪怕哪怕你没见过这个词，只要语感好就大概能够读得出来。</p>
+<p>Speaking is the way we use a language most frequently. If you don’t speak this language, you will actually lose a lot of practice time. If a man can speak, he must also be able to read.<br>Especially in a language like English, if you don’t know Chinese characters, you may really not be able to pronounce them.<br>In English, even if you have never seen the word, you can probably read it as long as you have a good sense of language.</p>
+<p>同时语感也能用在判断语法，判断时态之类的题目上。英语为母语的人，根本不会特地去学习语法，因为他们只要读出来就能感觉到语法对不对。</p>
+<p>At the same time, language sense can also be used to judge grammar, judge tenses and other topics.<br>Native English speakers don’t study grammar at all, because they can feel whether the grammar is correct as long as they read it.</p>
+<p>就像是中国人都说“两个”，”二个”这个词一听很别扭，我们根本不需要思考，也从来没学过为什么，但就是知道怎么样是对的。而学中文的外国人就需要去学习为什么是“没有”而不是“不有”。</p>
+<p>It’s like the Chinese say “liang ge”, the word “er ge” sounds awkward, we don’t need to think at all, and we have never learned why, but we just know what is right.<br>Foreigners who learn Chinese need to learn why it is “mei you” instead of “bu you”.</p>
+<p>而这个神奇的语感，就是靠不断地多说，多交流锻炼出来的。这也是为什么都说语言环境很重要，因为好的语言环境能最大程度的让学生进行口语交流。</p>
+<p>And this magical sense of language is developed by constantly speaking and exchanging more. This is why it is said that the language environment is very important, because a good language environment can maximize students’ oral communication.</p>
+<p>口语的好处还有很多，更多的在之后的一对一语音时，我会具体介绍，这里就不过多赘述了。</p>
+<p>There are many other benefits of oral English, and I will introduce them in detail in the one-on-one speech later, so I won’t go into details here.</p>
+<h4 id="项目介绍-Project-Description"><a href="#项目介绍-Project-Description" class="headerlink" title="项目介绍 - Project Description"></a>项目介绍 - Project Description</h4><h5 id="1-免费-FREE"><a href="#1-免费-FREE" class="headerlink" title="1. 免费 - FREE"></a>1. 免费 - FREE</h5><h5 id="2-线上-ONLINE"><a href="#2-线上-ONLINE" class="headerlink" title="2. 线上 - ONLINE"></a>2. 线上 - ONLINE</h5><h5 id="3-一对一全英文交流-ONE-TO-ONE-ENGLISH-COMMUNICATION"><a href="#3-一对一全英文交流-ONE-TO-ONE-ENGLISH-COMMUNICATION" class="headerlink" title="3. 一对一全英文交流 - ONE-TO-ONE ENGLISH COMMUNICATION"></a>3. 一对一全英文交流 - ONE-TO-ONE ENGLISH COMMUNICATION</h5><p>具体讲一下就是，只要是符合条件的学生，都可以通过填写调查问卷的方式进行报名（问卷链接在文章最后）。之后会安排时间进行线上的一对一交流。交流时需要学生尽可能只使用英语，交流时长视情况而定（主要看学生的英语水平和交流意愿）。</p>
+<p>Specifically, as long as you are a qualified student, you can register by filling out the questionnaire (the link to the questionnaire is at the end of the article). Afterwards, time will be arranged for online one-on-one communication. When communicating, students are required to use only English as much as possible, and the length of communication depends on the situation (mainly depends on the students’ English level and willingness to communicate).\</p>
+<h4 id="目标人群-Target"><a href="#目标人群-Target" class="headerlink" title="目标人群 - Target"></a>目标人群 - Target</h4><h5 id="我们期望的合作对象是国内非一线城市，初中阶段且第一外语是英语的学生。"><a href="#我们期望的合作对象是国内非一线城市，初中阶段且第一外语是英语的学生。" class="headerlink" title="我们期望的合作对象是国内非一线城市，初中阶段且第一外语是英语的学生。"></a>我们期望的合作对象是国内非一线城市，初中阶段且第一外语是英语的学生。</h5><h5 id="We-expect-to-cooperate-with-students-in-non-first-tier-cities-in-China-who-are-in-junior-high-school-and-whose-first-foreign-language-is-English"><a href="#We-expect-to-cooperate-with-students-in-non-first-tier-cities-in-China-who-are-in-junior-high-school-and-whose-first-foreign-language-is-English" class="headerlink" title="We expect to cooperate with students in non-first-tier cities in China who are in junior high school and whose first foreign language is English."></a>We expect to cooperate with students in non-first-tier cities in China who are in junior high school and whose first foreign language is English.</h5><p>为了避免不必要的误会，我解释一下选择目标人群的考量。考虑到需要最真实的数据，选择了非一线城市，毕竟像北上广深这样的城市不管是英语教材的难度，补课量，出国经历等等都高于国内大部分城市，无法真实反映中国学生的平均口语能力。</p>
+<p>In order to avoid unnecessary misunderstanding, let me explain the considerations for selecting the target group.<br>Considering the need for the most authentic data, I chose non-first-tier cities. After all, cities like Beijing, Shanghai, Guangzhou and Shenzhen are higher than most cities in China in terms of the difficulty of English textbooks, the amount of supplementary lessons, and experience abroad, which cannot truly reflect the needs of Chinese students. Average speaking ability.</p>
+<p>本来是想定中小学的，但考虑到小学阶段的孩子英语基础还不扎实，可能没法进行完整的全英语交流，所以把年龄定在初中阶段。</p>
+<p>Originally, I wanted to set the age for primary and secondary schools, but considering that children in primary schools do not have a solid foundation in English, they may not be able to communicate in full English, so I set the age at the junior high school stage.</p>
+<h4 id="注意事项-Notice"><a href="#注意事项-Notice" class="headerlink" title="注意事项 - Notice"></a>注意事项 - Notice</h4><p>我们组内人员均为中国留学生，都至少在英语国家生活学习四年以上，均有能力独立完成全英文的研究生级别课程。</p>
+<p>Our team members are all Chinese students who have lived and studied abroad for at least four years, and are able to independently complete graduate-level courses in English.</p>
+<p>为了保护学生隐私以及调研数据，交流过程中我们不会进行任何形式的录制，希望您也能遵守不录制的约定。</p>
+<p>In order to protect the privacy of students and research data, we will not conduct any form of recording during the communication process, and hope that you can also abide by the agreement of not recording.</p>
+<p>本次调研旨在互帮互助，希望双方都能从中有所收获。我方不会收取任何费用，如果有我方人员联系学生进行类似有偿补课的情况，希望您能拒绝且及时告知我们。</p>
+<p>This survey aims to help each other, and I hope that both parties can gain something from it. We will not charge any fees. If our personnel contact students for similar paid supplementary lessons, we hope you can refuse and inform us in time.</p>
+<p>由于我方组员均在国外，线上交流时将会使用ZOOM。ZOOM在国内使用时或需要连接VPN，麻烦提前下载好软件并调试，以避免不必要的麻烦。</p>
+<p>Since our team members are all abroad, ZOOM will be used for online communication. When using ZOOM in China, you may need to connect to a VPN. Please download and debug the software in advance to avoid unnecessary trouble.</p>
+<h4 id="报名问卷-Registration-Form"><a href="#报名问卷-Registration-Form" class="headerlink" title="报名问卷 - Registration Form"></a>报名问卷 - Registration Form</h4>]]></content>
       <categories>
-        <category>吃的</category>
-        <category>肉</category>
+        <category>Guide</category>
       </categories>
   </entry>
 </search>
